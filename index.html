@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monkey Lander</title>
+
+  <!-- Include Phaser from CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/phaser@3.86.0/dist/phaser-arcade-physics.min.js"></script>
+
+  <!-- Link CSS (Optional for styling) -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Game Container -->
+  <div id="game-container"></div>
+  <script type="module" src="src/main.js"></script>
+  <!-- Include JavaScript Files -->
+
+  <script type="module" src="src/scenes/MainMenu.js"></script> <!-- Main Menu Scene -->
+  <script type="module" src="src/scenes/GameScene.js"></script> <!-- Game Scene -->
+  <script type="module" src="src/scenes/GameOverScene.js"></script> <!-- Game Over Scene -->
+  <script type="module" src="src/classes/Monkey.js"></script> <!-- Monkey Class -->
+  <script type="module" src="src/classes/Fuel.js"></script> <!-- Fuel Class -->
+  <!-- Add other game files as needed -->
+</body>
+</html>
