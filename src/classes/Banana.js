@@ -1,12 +1,13 @@
 export default class Banana {
-  constructor(scene) {
+  constructor(scene, positions) {
     this.scene = scene; // Reference to the Phaser scene
     this.bananaImage = 'banana'; // Phaser key for the banana image
-    this.positions = [
-      { x: 200, y: 200 },
-      { x: 600, y: 300 },
-      { x: 100, y: 250 },
-    ]; // Only use the first 3 positions
+    // this.positions = [
+    //   { x: 200, y: 200 },
+    //   { x: 600, y: 300 },
+    //   { x: 100, y: 250 },
+    // ]; // Only use the first 3 positions
+    this.positions = positions;  //passing positions dynamically
     this.bananasGroup = null;
   }
 

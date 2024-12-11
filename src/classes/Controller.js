@@ -14,6 +14,8 @@ export default class Controller {
   }
 
   update() {
+    // console.log(`Disable input: ${this.disableInput}, isAnimatingFuel: ${this.scene.isAnimatingFuel}`);
+
     if(this.scene.isAnimating || this.disableInput){return;}
     const { up, right, left } = this.keys;
 

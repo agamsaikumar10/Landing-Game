@@ -5,6 +5,7 @@ export default class MainMenu extends Phaser.Scene {
   
     preload() {
       this.load.image('background-img', 'assets/images/gameover-background.png');
+      this.load.image('howToPlayImage', 'assets/images/howtoplay.png');
       this.load.audio('spawn', 'assets/audio/spawn.mp3'); // Load audio for level start
     }
   
@@ -67,7 +68,7 @@ export default class MainMenu extends Phaser.Scene {
 
       // Level Buttons (Initially Hidden)
       this.levelButtons = [];
-      for (let i = 1; i <= 5; i++) {
+      for (let i = 1; i <= 2; i++) {
         const levelBtn = this.add.text(400, 150 + i * 50, `Level ${i}`, {
           font: '32px Arial',
           fill: '#00ff00',
@@ -92,10 +93,14 @@ export default class MainMenu extends Phaser.Scene {
         fill: '#ffffff',
       }).setOrigin(0.5);
   
-      this.add.text(400, 200, 'Use Arrow Keys to Move', {
-        font: '24px Arial',
-        fill: '#ffffff',
-      }).setOrigin(0.5);
+      // this.add.text(400, 200, 'Use Arrow Keys to Move', {
+      //   font: '24px Arial',
+      //   fill: '#ffffff',
+      // }).setOrigin(0.5);
+
+      // Add the "How To Play" image
+      this.add.image(400, 250, 'howToPlayImage').setScale(0.5); // Adjust scale if necessary
+
   
       this.backButton.setVisible(true);
     }
@@ -112,7 +117,7 @@ export default class MainMenu extends Phaser.Scene {
     }
   
     startLevel(level) {
-      this.scene.start('GameScene', { level }); // Pass the selected level to GameScene
+      this.scene.start('GameScene', { levelIndex : level }); // Pass the selected level to GameScene
       this.sound.play('spawn'); // Play spawn sound
     }
   

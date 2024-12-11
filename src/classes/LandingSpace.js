@@ -1,8 +1,10 @@
 
 export default class LandingSpace {
-    constructor(scene) {
+    constructor(scene, x, y) {
       this.scene = scene;
       this.sprite = null;
+      this.x = x; //Added this x position
+      this.y = y; //Added this y position
       this.visible = false;
       this.landed = false;
     }
@@ -12,7 +14,8 @@ export default class LandingSpace {
     }
   
     create() {
-      this.sprite = this.scene.physics.add.staticSprite(400, 500, 'landingSpace')
+      // 400, 500
+      this.sprite = this.scene.physics.add.staticSprite(this.x, this.y, 'landingSpace')
         .setScale(1)
         .setVisible(false); // Hide initially
     }

@@ -1,12 +1,13 @@
 
 export default class Fuel {
-  constructor(scene, x, y, width, height) {
+  constructor(scene, x, y, width, height, levels) {
     this.scene = scene; // Reference to the Phaser scene
     this.x = x;         // Position of the fuel bar
     this.y = y;
     this.width = width; // Total width of the fuel bar
     this.height = height;
     this.fuelHealth = width; // Initial fuel level is the full width of the bar
+    this.levels = levels; // Store the levels array
 
     // Create the background bar
     this.fuelBarBg = scene.add.rectangle(x, y, width, height, 0x000000)
@@ -36,19 +37,18 @@ export default class Fuel {
     if (this.fuelHealth <= 0) {
       this.scene.monkey.verticalSpeedFactor = 0;
       this.scene.monkey.horizontalSpeedFactor = 0;
-      // Trigger GameOverScene if not already triggered
-      if (!this.scene.scene.isPaused()) {
-        console.log('Fuel is empty! Transitioning to GameOverScene...');
-        this.scene.scene.pause(); // Pause the current scene
-        this.scene.add.text(400, 300, 'Game Over!', {
-          font: '40px Arial',
-          fill: '#ffffff',
-        }).setOrigin(0.5);
-
-        // Transition to GameOverScene after 2 seconds
+      console.log(`Length of levels from Fuel.js is  :${this.levels.length}`);
+      if (this.scene.levelIndex + 1 < this.levels.length) {
+        console.log('Fuel is empty! Transitioning to next level...');
         this.scene.time.delayedCall(2000, () => {
-          this.scene.scene.start('GameOverScene');
+          this.scene.levelIndex++;
+          this.scene.scene.start('GamePauseScene', { levelIndex: this.scene.levelIndex, currentScore : this.scene.currentScore, totalLevels: this.levels.length });
         });
+      }
+      // Trigger GameOverScene if not already triggered
+      else if (!this.scene.scene.isPaused()) {
+        console.log('Fuel is empty! Transitioning to GameOverScene...');
+        this.scene.handleGameOver();
       }
     }
   }
