@@ -41,7 +41,7 @@ export default class GamePauseScene extends Phaser.Scene {
         if (levelIndex < totalLevels) {
             this.scene.stop('GamePauseScene');
             this.scene.start('GameScene', {
-              levelIndex: levelIndex + 1,
+              levelIndex: levelIndex,
               currentScore,
             });
           } else {
