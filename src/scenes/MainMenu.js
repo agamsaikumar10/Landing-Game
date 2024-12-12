@@ -82,7 +82,9 @@ export default class MainMenu extends Phaser.Scene {
       }
     }
     startGame() {
-      this.scene.start('GameScene'); // Transition to the main game
+      this.scene.start('GameScene', {
+          level : 0
+      }); // Transition to the main game
       this.sound.play('spawn'); // Play spawn sound
     }
   
