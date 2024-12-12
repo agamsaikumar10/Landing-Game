@@ -38,7 +38,7 @@ export default class GamePauseScene extends Phaser.Scene {
         .setInteractive();
   
       nextLevelButton.on('pointerdown', () => {
-        if (levelIndex + 1 < totalLevels) {
+        if (levelIndex < totalLevels) {
             this.scene.stop('GamePauseScene');
             this.scene.start('GameScene', {
               levelIndex: levelIndex + 1,
