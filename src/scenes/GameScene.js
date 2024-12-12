@@ -290,7 +290,7 @@ checkGameOverConditions() {
           console.log(`The total number of levels passed into the GamePauseScene is ${levels.length}`);
           this.scene.start('GamePauseScene', {
             currentScore: this.currentScore,
-            levelIndex: this.levelIndex,
+            levelIndex: this.levelIndex+1,
             totalLevels : levels.length, //Passing the total number of levels
           });
 
