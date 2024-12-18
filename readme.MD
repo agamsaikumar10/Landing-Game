@@ -113,7 +113,7 @@ Guide the monkey to collect bananas, avoid obstacles, and land safely on the lan
 2. Clone the repository:
    ```bash
    git clone <repository-url>
-   cd monkey-landing-adventure
+   cd landing-game
    ```
 
 3. Install dependencies:
