@@ -144,7 +144,7 @@ Guide the monkey to collect bananas, avoid obstacles, and land safely on the lan
 
 ## 👨‍💻 **Contributors**
 
-- **Developer**: [Your Name]
+- **Developer**: Kavin Raj Raveendran, Sai Kumar agam, Disha roopun
 - **Tech Stack**: Phaser.js, JavaScript, HTML, CSS
 
 ---
