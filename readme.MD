@@ -52,22 +52,21 @@ Guide the monkey to collect bananas, avoid obstacles, and land safely on the lan
 ## 🖥️ **Game Screenshots**
 
 ### **Main Menu**
-![Main Menu](screenshots/Screenshot-2024-12-16-at-3.12.32-AM.png)
+![Main Menu]
 
 ### **How to Play**
-![How to Play](screenshots/Screenshot-2024-12-16-at-3.13.00-AM.png)
-
+![How to Play]
 ### **In-Game Scene**
-![Game Scene](screenshots/Screenshot-2024-12-16-at-3.12.46-AM.png)
+![Game Scene]
 
 ### **Paused Screen**
-![Paused Screen](screenshots/Screenshot-2024-12-16-at-3.13.35-AM.png)
+![Paused Screen]
 
 ### **Game Over Screen**
-![Game Over](screenshots/Screenshot-2024-12-16-at-3.13.51-AM.png)
+![Game Over]
 
 ### **Level Selection**
-![Level Selection](screenshots/Screenshot-2024-12-16-at-3.13.55-AM.png)
+![Level Selection]
 
 ---
 
