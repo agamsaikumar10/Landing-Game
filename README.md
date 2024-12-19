@@ -80,23 +80,18 @@ Guide the monkey to collect bananas, avoid obstacles, and land safely on the lan
 - Game objects load successfully in the scene.
 - Player can control the monkey and collect bananas.
 
-### 🛠️ **Pending Tasks**
-- Refine game logic and object placement.
-- Implement smooth collision detection.
-- Add logic for soft landings on landing spaces.
-
 ---
 
 ## 💡 **Challenges Faced**
 
 1. **Physics Engine Selection**:
-   - Transitioned from **Arcade Physics** to drawing custom boundaries for complex collisions.
+   - Switched from **Arcade Physics**  to custom boundaries for better collision handling.
 
 2. **Asset Management**:
-   - Manually cropped images for spritesheets and animated assets.
-
+   - Cropped images manually for spritesheets and animations.
+     
 3. **Animations**:
-   - Implemented monkey movement animations with direction-specific frames.
+   - Added monkey movement animations with frames for each direction.
 
 4. **Landing Space Logic**:
    - Logic for detecting the monkey's landing required fine-tuning to ensure seamless gameplay.
@@ -138,10 +133,13 @@ Guide the monkey to collect bananas, avoid obstacles, and land safely on the lan
 
 ## 🔮 **Future Improvements**
 
-- Add enhanced collision detection.
-- Design additional levels with unique challenges.
-- Polish animations and add new sprite directions.
-- Improve user experience with refined UI and effects.
+- Refine game logic and object placement.
+- Improve collision detection for better accuracy.
+- Make collisions smoother and more natural.
+- Create new levels with unique challenges.
+- Add logic for soft landings on landing spaces.
+- Enhance animations and add more sprite movements.
+- Upgrade the UI and effects for a better player experience.
 
 ---
 
