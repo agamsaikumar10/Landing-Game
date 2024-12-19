@@ -2,7 +2,7 @@
 
 A **2D platformer game** built using **Phaser.js**, where players control a monkey navigating through challenging levels, collecting bananas, managing fuel, and avoiding obstacles. The game focuses on creating an engaging experience with dynamic physics, animations, and interactive gameplay.
 
----
+--
 
 ## 📚 **Framework and Development**
 
@@ -52,21 +52,25 @@ Guide the monkey to collect bananas, avoid obstacles, and land safely on the lan
 ## 🖥️ **Game Screenshots**
 
 ### **Main Menu**
-![Main Menu]
+<img width="802" alt="MainMenu" src="https://github.com/user-attachments/assets/6b9b5e57-1c4f-4aa5-8843-31a450da6af6" />
+
 
 ### **How to Play**
-![How to Play]
+<img width="802" alt="Screenshot 2024-12-18 at 6 54 56 PM" src="https://github.com/user-attachments/assets/55146b5d-d8ab-43df-815d-11352f183e75" />
+
 ### **In-Game Scene**
-![Game Scene]
+<img width="802" alt="Level2" src="https://github.com/user-attachments/assets/f060fba5-89d7-4cd6-88a2-da1010fccd8a" />
+
 
 ### **Paused Screen**
-![Paused Screen]
+<img width="802" alt="Screenshot 2024-12-18 at 6 55 18 PM" src="https://github.com/user-attachments/assets/5e8435a4-8c7e-453d-bd26-ce3fbbea0c94" />
+
 
 ### **Game Over Screen**
-![Game Over]
+<img width="805" alt="Screenshot 2024-12-18 at 7 28 28 PM" src="https://github.com/user-attachments/assets/56c6797d-5375-4431-91a2-1e3311c8c9db" />
 
 ### **Level Selection**
-![Level Selection]
+<img width="802" alt="Screenshot 2024-12-18 at 6 55 04 PM" src="https://github.com/user-attachments/assets/84a2f2a7-800d-4e3a-bf6e-7cdbb012f963" />
 
 ---
 
