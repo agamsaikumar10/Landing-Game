@@ -138,6 +138,7 @@ Guide the monkey to collect bananas, avoid obstacles, and land safely on the lan
 - Make collisions smoother and more natural.
 - Create new levels with unique challenges.
 - Add logic for soft landings on landing spaces.
+- Add logic for bonus points when collecting fruits other than bananas.
 - Enhance animations and add more sprite movements.
 - Upgrade the UI and effects for a better player experience.
 
