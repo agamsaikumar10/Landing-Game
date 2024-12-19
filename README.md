@@ -1,12 +1,12 @@
 # 🐵 **Landing Game**
 
-A **2D platformer game** built using **Phaser.js**, where players control a monkey navigating through challenging levels, collecting bananas, managing fuel, and avoiding obstacles. The game focuses on creating an engaging experience with dynamic physics, animations, and interactive gameplay.
+This is a **2D platform game** built using **Phaser.js**. The goal is to collect bananas, manage fuel, and dodge obstacles while exploring fun and challenging levels. The game features lively animations, smooth physics, and interactive gameplay to keep it exciting.
 
 --
 
 ## 📚 **Framework and Development**
 
-The game is developed using **Phaser.js**, a robust framework for creating 2D games in **JavaScript** and **TypeScript**. Phaser.js offers powerful tools like physics engines and animation utilities, simplifying game logic and object interactions.
+The game is developed with **Phaser.js**, a framework for building 2D games using **JavaScript** and **TypeScript**. It provides helpful tools like physics engines and animation features to make game logic and interactions easier.
 
 ---
 
@@ -147,7 +147,7 @@ Guide the monkey to collect bananas, avoid obstacles, and land safely on the lan
 
 ## 👨‍💻 **Contributors**
 
-- **Developer**: Kavin Raj Raveendran, Sai Kumar agam, Disha roopun
+- **Developer**: Kavin Raj Raveendran, Sai Kumar Agam, Disha Roopun
 - **Tech Stack**: Phaser.js, JavaScript, HTML, CSS
 
 ---
