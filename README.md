@@ -1,12 +1,12 @@
 # 🐵 **Landing Game**
 
-A **2D platformer game** built using **Phaser.js**, where players control a monkey navigating through challenging levels, collecting bananas, managing fuel, and avoiding obstacles. The game focuses on creating an engaging experience with dynamic physics, animations, and interactive gameplay.
+This is a **2D platform game** built using **Phaser.js**. The goal is to collect bananas, manage fuel, and dodge obstacles while exploring fun and challenging levels. The game features lively animations, smooth physics, and interactive gameplay to keep it exciting.
 
 --
 
 ## 📚 **Framework and Development**
 
-The game is developed using **Phaser.js**, a robust framework for creating 2D games in **JavaScript** and **TypeScript**. Phaser.js offers powerful tools like physics engines and animation utilities, simplifying game logic and object interactions.
+The game is developed with **Phaser.js**, a framework for building 2D games using **JavaScript** and **TypeScript**. It provides helpful tools like physics engines and animation features to make game logic and interactions easier.
 
 ---
 
@@ -80,23 +80,18 @@ Guide the monkey to collect bananas, avoid obstacles, and land safely on the lan
 - Game objects load successfully in the scene.
 - Player can control the monkey and collect bananas.
 
-### 🛠️ **Pending Tasks**
-- Refine game logic and object placement.
-- Implement smooth collision detection.
-- Add logic for soft landings on landing spaces.
-
 ---
 
 ## 💡 **Challenges Faced**
 
 1. **Physics Engine Selection**:
-   - Transitioned from **Arcade Physics** to drawing custom boundaries for complex collisions.
+   - Switched from **Arcade Physics**  to custom boundaries for better collision handling.
 
 2. **Asset Management**:
-   - Manually cropped images for spritesheets and animated assets.
-
+   - Cropped images manually for spritesheets and animations.
+     
 3. **Animations**:
-   - Implemented monkey movement animations with direction-specific frames.
+   - Added monkey movement animations with frames for each direction.
 
 4. **Landing Space Logic**:
    - Logic for detecting the monkey's landing required fine-tuning to ensure seamless gameplay.
@@ -104,6 +99,10 @@ Guide the monkey to collect bananas, avoid obstacles, and land safely on the lan
 ---
 
 ## 🚀 **How to Run the Game**
+
+**Game Link** https://shecodes19.github.io/Landing-Game/
+
+or
 
 1. Install Node.js (if not already installed):
    - [Download Node.js](https://nodejs.org/) and install it for your system.
@@ -138,16 +137,20 @@ Guide the monkey to collect bananas, avoid obstacles, and land safely on the lan
 
 ## 🔮 **Future Improvements**
 
-- Add enhanced collision detection.
-- Design additional levels with unique challenges.
-- Polish animations and add new sprite directions.
-- Improve user experience with refined UI and effects.
+- Refine game logic and object placement.
+- Improve collision detection for better accuracy.
+- Make collisions smoother and more natural.
+- Create new levels with unique challenges.
+- Add logic for soft landings on landing spaces.
+- Add logic for bonus points when collecting fruits other than bananas.
+- Enhance animations and add more sprite movements.
+- Upgrade the UI and effects for a better player experience.
 
 ---
 
 ## 👨‍💻 **Contributors**
 
-- **Developer**: Kavin Raj Raveendran, Sai Kumar agam, Disha roopun
+- **Developer**: Kavin Raj Raveendran, Sai Kumar Agam, Disha Roopun
 - **Tech Stack**: Phaser.js, JavaScript, HTML, CSS
 
 ---
